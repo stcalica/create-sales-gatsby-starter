@@ -1,0 +1,36 @@
+{
+  "links": [
+    {
+      "title": "The Database episodes",
+     "url": "https://soundcloud.com/spinanddestroyboys",
+     "description": "The Database episodes",
+     "source": "soundcloud"
+   },
+    {
+      "title": "Quaratine Livestreams and Twitch Channel",
+     "url": "https://twitch.tv/spinanddestroy",
+     "description": "Quaratine Streams"
+     },
+     {
+       "title": "1-800-Chapas Halloween Mix",
+      "url": "https://soundcloud.com/chapas-music/1-800-chapas-halloween-mixtape",
+      "description": "This is Chapas's first annual mix",
+      "source":"soundcloud"
+    },
+    {
+      "title": "I'm Every Woman (Globo remix)",
+      "url": "https://soundcloud.com/globobeats/chaka-x-globo-remix",
+      "source": "soundcloud"
+    },
+    {
+      "title": "French Inhale EP - Error",
+      "url": "https://open.spotify.com/album/7Fj1ifwjmnWB3WeHNCTxOR",
+      "source": "spotify"
+    },
+    {
+      "title": "Merch",
+     "url": "https://www.spinanddestroy.com/#store",
+     "description": "Shop"
+     }
+  ]
+}

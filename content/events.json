@@ -1,0 +1,33 @@
+{
+  "events": [
+    {
+      "title": "WAREHOUSE",
+      "date": "2020-3-14",
+      "time": "9PM - ?",
+      "location": "Follow Instagram for Location Drop",
+      "address": "Follow Instagram for Location Drop",
+      "genres": "edm, hard, dance, dubstep, trap",
+      "artists":[ "chapas" ]
+    },
+    {
+      "title": "EDM EMO",
+      "date": "2020-2-13",
+      "time": "10PM - 2AM",
+      "location": "Lounge 3411",
+      "address": "MacArthur Blvd",
+      "genres": "edm, emo",
+      "artists":[ "chapas" ],
+      "age": "21+",
+      "description": "emo edm whateves"
+    },
+    {
+      "title": "WAREHOUSE",
+      "date": "2020-6-6",
+      "time": "9PM - ?",
+      "location": "Follow Instagram for Location Drop",
+      "address": "Follow Instagram for Location Drop",
+      "genres": "edm, hard, dance, dubstep, trap",
+      "artists":[ "chapas" ]
+    }
+  ]
+}
