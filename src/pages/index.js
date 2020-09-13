@@ -11,7 +11,7 @@ const IndexPage = () => (
     <MainLayout>
     <div className="content-wrapper">
       <Splash />
-      <section id="about" style={{width:'100%', textAlign:'center', paddingTop:'64px' }}>
+      <section id="about">
         <h2> Our Deal </h2>
         <p>Throwing parties is not all glamourous whether they are sweaty warehouse raves, bar shows, or large scale festivals. We take on all the sad work
         so we can provide the best experience for the DJs, listeners and the adventourus.

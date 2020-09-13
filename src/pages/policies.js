@@ -1,9 +1,7 @@
 import React from 'react'
-import { SlantedSections } from 'gatsby-ui-components'
 
 const PolicyPage = () => (
   <>
-    <SlantedSections>
     <div  style={{paddingBottom: '150px'}} >
         <h3><strong>RETURNS TERMS AND CONDITIONS</strong></h3>
         <p> ---- </p>
@@ -93,7 +91,6 @@ const PolicyPage = () => (
     <h3><strong>CONTACT US</strong></h3>
     <p>For more information about our privacy practices, if you have questions, or if you have any concerns or complaints, please contact us by e-mail at kyle@filthyaf.com or join our discord chat at <a style={{ background: "black" }} href="https://discord.gg/a72xX6w">https://discord.gg/a72xX6w</a> and send a message to #sales-support channel.</p>
     </div>
-  </SlantedSections>
   </>
 )
 export default PolicyPage

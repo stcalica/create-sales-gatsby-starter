@@ -4,7 +4,7 @@ import { graphql } from 'gatsby'
 import SEO from '~/components/seo'
 import ProductForm from '~/components/ProductForm'
 import Image from 'gatsby-image'
-import MainLayout from '~/layouts/MainLayout'
+import SecondaryLayout from '~/layouts/SecondaryLayout'
 import { Row, Col, Carousel } from 'antd'
 import '../../css/main.css'
 import 'antd/dist/antd.css';
@@ -23,10 +23,10 @@ const ProductPage = ({ data }) => {
   const product = data.shopifyProduct
   return (
     <>
-      <MainLayout>
+      <SecondaryLayout>
         <SEO title={product.title} description={product.description} />
         <div className="container" style={{ paddingTop:'64px'}}>
-          <div class="row">
+          <div className="row">
               <div className="product-image-container col-lg-6 col-md-6 col-xs-12 col-sm-12">
                 <ProductCarousel images={product}/>
               </div>
@@ -36,14 +36,14 @@ const ProductPage = ({ data }) => {
                 </div>
               </div>
           </div>
-      </MainLayout>
+      </SecondaryLayout>
     </>
   )
 }
 
 
 // <>
-//   <MainLayout>
+//   <SecondaryLayout>
 //     <SEO title={product.title} description={product.description} />
 //     <div className="container" style={{ paddingTop:'64px'}}>
 //       <div className="row">
@@ -60,7 +60,7 @@ const ProductPage = ({ data }) => {
 //             </div>
 //         </div>
 //       </div>
-//   </MainLayout>
+//   </SecondaryLayout>
 // </>
 
 

@@ -1,14 +1,14 @@
 import React from 'react'
-import MainLayout from '~/layouts/MainLayout'
+import SecondaryLayout from '~/layouts/SecondaryLayout'
 import Cart from '~/components/Cart'
 
 const CartPage = () => (
-  <MainLayout>
+  <SecondaryLayout>
     <div className="cart-wrapper" style={{paddingTop: '64px'}}>
       <h1>Cart</h1>
       <Cart />
     </div>
-  </MainLayout>
+  </SecondaryLayout>
 )
 
 export default CartPage

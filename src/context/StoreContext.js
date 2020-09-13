@@ -3,6 +3,13 @@ import Client from 'shopify-buy'
 //sees ContextProvider (shopify) wrapped around layout and inherits value prop
 
 
+
+//the client sorta like a singleton
+const client = Client.buildClient({
+  storefrontAccessToken: 'a1e9eaa0c3e77fd120a45809313c8b2f',
+  domain: `spinanddestroy.myshopify.com`,
+})
+
 //init the store
 let initialStoreState = {
   client,
@@ -17,11 +24,6 @@ const StoreContext = React.createContext(initialStoreState)
 // context is ran first!
 // import Context from '~/context/StoreContext'
 
-//the client sorta like a singleton
-const client = Client.buildClient({
-  storefrontAccessToken: 'a1e9eaa0c3e77fd120a45809313c8b2f',
-  domain: `spinanddestroy.myshopify.com`,
-})
 //  domain: `${process.env.SHOP_NAME}.myshopify.com`,
 //  storefrontAccessToken: process.env.SHOPIFY_ACCESS_TOKEN,
 

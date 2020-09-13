@@ -19,11 +19,11 @@ const { Header, Footer, Sider, Content } = Layout
 let links = [
   {
   'title': 'ABOUT',
-  'link': '#about'
+  'link': '/#about'
 },
 {
   'title': 'SHOP',
-  'link': '#store'
+  'link': '/#store'
 },
 {
   'title': 'CART',
@@ -33,12 +33,12 @@ let links = [
 
 
 
-const MainLayout = ({ children }) => {
+const SecondaryLayout = ({ children }) => {
   const { store: { checkout: { lineItems } } } = useContext(StoreContext)
   return (
       <StaticQuery
         query={graphql`
-          query MainSiteTitleQuery {
+          query SecondarySiteTitleQuery {
             site {
               siteMetadata {
                 title
@@ -58,8 +58,8 @@ const MainLayout = ({ children }) => {
   )
 }
 
-MainLayout.propTypes = {
+SecondaryLayout.propTypes = {
   children: PropTypes.node.isRequired,
 }
 
-export default MainLayout
+export default SecondaryLayout
