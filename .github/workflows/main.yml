@@ -27,12 +27,11 @@ jobs:
           aws-region: us-west-1
           
       - name: build dist 
-        run: |
-          ls dist/
-                
+        run: echo "should build gatsby here"
+    
       - name: Copy files to the S3 website content bucket 
         run: |
-          aws s3 sync dist/ s3://${{ secrets.AWS_S3_CONTENT_BUCKET }}
+          aws s3 sync public/ s3://${{ secrets.AWS_S3_CONTENT_BUCKET }}
           
       - name: create Cloudfront invalidation 
         run: | 
