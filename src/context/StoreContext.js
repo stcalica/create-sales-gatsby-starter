@@ -6,8 +6,8 @@ import Client from 'shopify-buy'
 
 //the client sorta like a singleton
 const client = Client.buildClient({
-  storefrontAccessToken: 'a1e9eaa0c3e77fd120a45809313c8b2f',
-  domain: `spinanddestroy.myshopify.com`,
+  storefrontAccessToken: '',
+  domain: ``,
 })
 
 //init the store
